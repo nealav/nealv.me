@@ -118,7 +118,7 @@ Facebook: 15,617
 * Top words in user bios
 
     [[boxShadow]]
-    | ![word_cloud 3](./_images/word-clouds/top_tlds_word_cloud.png)
+    | ![word_cloud 3](./_images/word-clouds/top_bio_word_cloud.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_5000_bio_words.txt
 
