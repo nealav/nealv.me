@@ -10,7 +10,8 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "copy": "cp -fR ./public/* ../nealav.github.io/"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",

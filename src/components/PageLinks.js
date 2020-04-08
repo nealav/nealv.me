@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import AnchorButton from '../AnchorButton';
+import AnchorButton from './AnchorButton';
 
-import classes from './PageLinks.module.css';
+import classes from './css/PageLinks.module.css';
 
 function PageLinks({ links }) {
   return (

@@ -1,7 +1,7 @@
 ---
 path: "/blog/scraping-10-yrs-github"
 date: "2020-04-05"
-title: "Scraping 10 Years of Github User/Dev Data"
+title: "Scraping 10 Years of GitHub User/Dev Data"
 ---
 
 ## Beginnings

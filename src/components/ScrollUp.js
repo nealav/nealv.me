@@ -1,11 +1,10 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 
-import Theme from '../../proptypes/Theme';
-import withTheme from '../../hocs/withTheme';
-import classNames from '../../utils/classNames';
+import withTheme, { ThemeProps } from '../theme/Theme';
+import classNames from '../utils/classNames';
 
-import classes from './ScrollUp.module.css';
+import classes from './css/ScrollUp.module.css';
 
 export function ScrollUp({
   theme,
@@ -25,7 +24,7 @@ export function ScrollUp({
 }
 
 ScrollUp.propTypes = {
-  theme: Theme.isRequired,
+  theme: ThemeProps.isRequired,
 };
 
 export default withTheme(ScrollUp);

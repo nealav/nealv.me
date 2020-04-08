@@ -5,35 +5,39 @@
     "techStack": [
         "React", "Python", "Flask"
     ],
-    "homepageUrl": "https://github.com/nealav/reddit-post-map",
     "gitHubUrl": "https://github.com/nealav/reddit-post-map",
-    "imageUrl": "https://raw.githubusercontent.com/nealav/reddit-post-map/master/reddit-post-map-image.png"
+    "imageUrl": "/_project_images/reddit_post_map.png"
   }, {
-    "name": "Github Scraper",
-    "shortDescription": "Scraping over 10 years of Github Data to Analyze Developer Information.",
+    "name": "GitHub Scraper",
+    "shortDescription": "Scraping over 10 years of GitHub data to analyze developer information.",
     "techStack": [
-      "Python", "Node.js", "Cloud SQL - PostgreSQL", "Numpy", "Folium", "GCP Compute Engine"
+      "Python", "Node.js", "Cloud SQL - PostgreSQL", "Numpy", "GCP Compute Engine"
     ],
-    "homepageUrl": "https://github.com/nealav/github-scraper",
     "gitHubUrl": "https://github.com/nealav/github-scraper",
-    "imageUrl": "https://raw.githubusercontent.com/nealav/github-scraper/master/github-analysis.png"
+    "imageUrl": "/_project_images/github_analysis.png"
   }, {
     "name": "Twitter Sentiment Analyzer",
     "shortDescription": "Analyzes the sentiment of tweets.",
     "techStack": [
       "Python", "Tweepy", "TextBlob"
     ],
-    "homepageUrl": "https://github.com/nealav/twitter-sentiment-analyzer",
     "gitHubUrl": "https://github.com/nealav/twitter-sentiment-analyzer",
-    "imageUrl": "https://raw.githubusercontent.com/nealav/twitter-sentiment-analyzer/master/twitter-sentiment-analysis.png"
+    "imageUrl": "/_project_images/twitter_sentiment_analyzer.png"
   }, {
     "name": "Spotify-Songkick Concert Playlist Maker",
-    "shortDescription": "Creates a playlist for you depending on the concerts in the time period you've specified.",
+    "shortDescription": "Creates a playlist for you based on the concerts around you in a [time period].",
     "techStack": [
       "Node.js", "Spotify", "Songkick"
     ],
-    "homepageUrl": "https://github.com/nealav/spotify-songkick-concert-playlist-generator",
     "gitHubUrl": "https://github.com/nealav/spotify-songkick-concert-playlist-generator",
-    "imageUrl": "https://raw.githubusercontent.com/nealav/spotify-songkick-concert-playlist-generator/master/spotify-songkick.png"
+    "imageUrl": "/_project_images/spotify_songkick.png"
+  }, {
+    "name": "nealv.me",
+    "shortDescription": "This personal website/blog. :D",
+    "techStack": [
+        "React", "Gatsby", "Netlify"
+    ],
+    "gitHubUrl": "https://github.com/nealav/nealv.me",
+    "imageUrl": ""
   }]
 }

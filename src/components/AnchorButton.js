@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Anchor from '../Anchor';
+import Anchor from './Anchor';
 
-import Theme from '../../proptypes/Theme';
-import withTheme from '../../hocs/withTheme';
-import classNames from '../../utils/classNames';
+import withTheme, { ThemeProps } from '../theme/Theme';
+import classNames from '../utils/classNames';
 
-import classes from './AnchorButton.module.css';
+import classes from './css/AnchorButton.module.css';
 
 const colorEnum = {
   primary: classes.primary,
@@ -44,7 +43,7 @@ export function AnchorButton({
 }
 
 AnchorButton.propTypes = {
-  theme: Theme.isRequired,
+  theme: ThemeProps.isRequired,
   href: PropTypes.string.isRequired,
   external: PropTypes.bool,
   title: PropTypes.string,

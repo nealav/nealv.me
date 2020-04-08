@@ -10,5 +10,6 @@ module.exports = {
         "extensions": [".js", ".jsx"],
       }
     ],
+    "import/no-named-as-default": 0,
   },
 };

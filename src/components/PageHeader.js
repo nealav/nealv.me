@@ -5,9 +5,9 @@ import Link from 'gatsby-link';
 import Popover from 'react-tiny-popover';
 import HamburgerMenu from 'react-hamburger-menu';
 
-import Brand from '../Brand';
+import Brand from './Brand';
 
-import classes from './PageHeader.module.css';
+import classes from './css/PageHeader.module.css';
 
 const portalElement = typeof document !== 'undefined'
   ? document.getElementsByTagName('body')[0]

@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import theme from '../styles/theme.module.css';
+import theme from './theme.module.css';
 
 export default function withTheme(Component) {
   return function ThemedComponent(props) {
@@ -12,3 +13,7 @@ export default function withTheme(Component) {
     );
   };
 }
+
+export { theme };
+
+export const ThemeProps = PropTypes.shape({});

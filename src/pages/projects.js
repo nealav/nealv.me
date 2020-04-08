@@ -45,7 +45,6 @@ Projects.propTypes = {
             name: PropTypes.string.isRequired,
             shortDescription: PropTypes.string.isRequired,
             techStack: PropTypes.arrayOf(PropTypes.string).isRequired,
-            homepageUrl: PropTypes.string.isRequired,
             gitHubUrl: PropTypes.string.isRequired,
           })).isRequired,
         }).isRequired,
@@ -65,7 +64,6 @@ export const pageQuery = graphql`
             name
             shortDescription
             techStack
-            homepageUrl
             gitHubUrl
             imageUrl
           }

@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import classNames from '../../utils/classNames';
+import classNames from '../utils/classNames';
 
-import theme from '../../styles/theme.module.css';
-import classes from './ProjectCard.module.css';
+import { theme } from '../theme/Theme';
+import classes from './css/ProjectCard.module.css';
 
 function ProjectCard({
   name,
   shortDescription,
   techStack,
-  homepageUrl,
   gitHubUrl,
   imageUrl,
 }) {
@@ -23,28 +22,30 @@ function ProjectCard({
         )
       }
       style={{
-        backgroundImage: `url(${imageUrl})`, backgroundColor: 'rgba(255, 255, 255, 0.8)', backgroundBlendMode: 'lighten', backgroundPosition: 'center',
+        backgroundImage: `url(${imageUrl})`, backgroundColor: 'rgba(255, 255, 255, 0.8)', backgroundBlendMode: 'lighten', backgroundPosition: '0% 22%',
       }}
     >
-      <a href={homepageUrl}>
-        <h2 className={classNames(classes.name, theme.primary)}>
-          {name}
-        </h2>
-      </a>
+      {gitHubUrl && (
+        <a href={gitHubUrl}>
+          <h2 className={classNames(classes.name, theme.primary)}>
+            {name}
+          </h2>
+        </a>
+      )}
       <p className={classes.shortDescription}>
         {shortDescription}
       </p>
       <p className={classes.techStack}>
         {techStack.join(', ')}
       </p>
-      <div className={classes.links}>
-        {/* <a className={classes.link} href={homepageUrl}>
+      {/* <div className={classes.links}>
+        <a className={classes.link} href={homepageUrl}>
           homepage
-        </a> */}
+        </a>
         <a className={classes.link} href={gitHubUrl}>
           code
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -53,7 +54,6 @@ ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
   shortDescription: PropTypes.string.isRequired,
   techStack: PropTypes.arrayOf(PropTypes.string).isRequired,
-  homepageUrl: PropTypes.string.isRequired,
   gitHubUrl: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
 };

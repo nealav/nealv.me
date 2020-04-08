@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
-import classNames from '../../utils/classNames';
+import classNames from '../utils/classNames';
 
-import theme from '../../styles/theme.module.css';
-import classes from './Anchor.module.css';
+import { theme } from '../theme/Theme';
+import classes from './css/Anchor.module.css';
 
 const colorEnum = {
   primary: theme.primary,

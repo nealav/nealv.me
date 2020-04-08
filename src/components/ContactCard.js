@@ -9,13 +9,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
-import Theme from '../../proptypes/Theme';
-import withTheme from '../../hocs/withTheme';
-import classNames from '../../utils/classNames';
+import withTheme, { ThemeProps } from '../theme/Theme';
+import classNames from '../utils/classNames';
 
-import Anchor from '../Anchor';
-import AnchorButton from '../AnchorButton';
-import classes from './ContactCard.module.css';
+import Anchor from './Anchor';
+import AnchorButton from './AnchorButton';
+import classes from './css/ContactCard.module.css';
 
 function ContactCard({
   theme,
@@ -82,7 +81,7 @@ function ContactCard({
 }
 
 ContactCard.propTypes = {
-  theme: Theme.isRequired,
+  theme: ThemeProps.isRequired,
   data: PropTypes.shape({
     site: PropTypes.shape({
       siteMetadata: PropTypes.shape({
