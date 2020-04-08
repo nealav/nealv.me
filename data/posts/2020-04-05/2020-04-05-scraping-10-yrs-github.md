@@ -4,6 +4,10 @@ date: "2020-04-05"
 title: "Scraping 10 Years of GitHub User/Dev Data"
 ---
 
+Using GitHub's GraphQL API to get millions of users and analyze their patterns.
+
+<!-- end -->
+
 ## Beginnings
 
 So I first noticed that some *personal* user data was available on Github through their REST API. The users endpoint returned user data and you could invidually view each profile -> profiles have websites, bios, emails, full names etc. I had to have it ALL. Plus I thought it was interesting to see how many developers wanted to be found and famed, although I won't be releasing this data to the public. You could scrape it too if you wanted.
