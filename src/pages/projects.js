@@ -26,8 +26,8 @@ function Projects({ data = {} }) {
     <PageLayout
       title="projects"
       titleHref="/projects"
-      pageTitle={`${title} - projects`}
-      pageDescription="Personal projects."
+      pageTitle={`${title} - Projects`}
+      pageDescription="Neal Viswanath's Projects."
     >
       <section className={classes.projects}>
         {projects.map(project => <ProjectCard key={project.name} {...project} />)}
