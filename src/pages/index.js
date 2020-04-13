@@ -26,7 +26,7 @@ function Home({
     } = {},
   } = data;
 
-  const pageDescription = 'A personal website';
+  const pageDescription = `Neal Viswanath's website`;
   const pageLinks = [{
     to: '/blog',
     name: 'blog',

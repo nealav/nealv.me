@@ -1,6 +1,6 @@
 # nealv.me
 
-> A personal website.
+My website.
 
 Forked from https://github.com/cdtinney/tinney.dev/
 
