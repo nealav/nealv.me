@@ -18,9 +18,9 @@
   color: rgb(33, 32, 40) !important;
 }
 
-.link:hover {
+/* .link:hover {
   color: rgb(96, 94, 110) !important;
-}
+} */
 
 @media (max-width: 576px) {
   .header:not(.headerLarge) {

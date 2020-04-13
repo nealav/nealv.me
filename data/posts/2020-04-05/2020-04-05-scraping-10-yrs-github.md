@@ -62,8 +62,7 @@ Only 833,488. A lot less than I imagined. GitHub seems like a solid place to sou
 
 * Top companies listed
 
-    [[boxShadow]]
-    | ![word_cloud 1](./_images/word-clouds/top_companies_word_cloud.png)
+![word_cloud 1](./_images/word-clouds/top_companies_word_cloud.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_5000_companies.txt
 
@@ -94,15 +93,13 @@ The above two interest me only because it shows correlation of accounts. If a us
 
 * Most used email domains
 
-    [[boxShadow]]
-    | ![word_cloud 2](./_images/word-clouds/top_email_domains_word_cloud.png)
+![word_cloud 2](./_images/word-clouds/top_email_domains_word_cloud.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_500_email_domains.txt
 
 * Most used website TLDs
 
-    [[boxShadow]]
-    | ![word_cloud 3](./_images/word-clouds/top_tlds_word_cloud.png)
+![word_cloud 3](./_images/word-clouds/top_tlds_word_cloud.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_500_tlds.txt
 
@@ -121,8 +118,7 @@ Facebook: 15,617
 
 * Top words in user bios
 
-    [[boxShadow]]
-    | ![word_cloud 3](./_images/word-clouds/top_bio_word_cloud.png)
+![word_cloud 3](./_images/word-clouds/top_bio_word_cloud.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_5000_bio_words.txt
 
@@ -137,8 +133,7 @@ I analyzed a few pieces of this as well: users, commit_comments, project_members
 
 * How many sign up per day?
 
-    [[boxShadow]]
-    | ![chart 1](./_images/charts/users_per_day.png)
+![chart 1](./_images/charts/users_per_day.png)
 
 * Top locations (country)
 
@@ -149,8 +144,7 @@ This is specifically the GHTorrent data. Thank god that it already had the geoco
 
 * Top companies listed
 
-    [[boxShadow]]
-    | ![word_cloud 4](./_images/word-clouds/top_companies_ghtorrent.png)
+![word_cloud 4](./_images/word-clouds/top_companies_ghtorrent.png)
 
 Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_5000_companies_ghtorrent.txt
 
@@ -166,8 +160,7 @@ This is interesting because it seems like there were a lot of bot accounts tryin
 
 * Top languages in projects
 
-    [[boxShadow]]
-    | ![word_cloud 5](./_images/word-clouds/top_languages_word_cloud.png)
+![word_cloud 5](./_images/word-clouds/top_languages_word_cloud.png)
 
 Top Order: [['JavaScript', 13402663], ['Java', 8761966], ['Python', 7306617], ['HTML', 4750381], ['Ruby', 3945828], ['PHP', 3442813], ['C++', 2986247], ['CSS', 2640028], ['C', 2372246], ['C#', 2215896], ['Shell', 1798348], ['Go', 1345421]]
 
@@ -185,23 +178,19 @@ Raw data: https://github.com/nealav/github-scraper/blob/master/data/top_100_proj
 
 * How many commit comments per day?
 
-    [[boxShadow]]
-    | ![chart](./_images/charts/commit_comments_per_day.png)
+![chart](./_images/charts/commit_comments_per_day.png)
 
 * Most said words in commit comments
 
-    [[boxShadow]]
-    | ![word_cloud](./_images/word-clouds/commit_comment_word_cloud.png)
+![word_cloud](./_images/word-clouds/commit_comment_word_cloud.png)
 
 * Oh and by the way, this is what the data looks like uncleaned. Dirty mhm.
 
-    [[boxShadow]]
-    | ![word_cloud](./_images/word-clouds/uncleaned_commit_comments_word_cloud.png)
+![word_cloud](./_images/word-clouds/uncleaned_commit_comments_word_cloud.png)
 
 * Top users submitting commit comments
 
-    [[boxShadow]]
-    | ![table](./_images/charts/top_users_commit_comments.png)
+![table](./_images/charts/top_users_commit_comments.png)
 
 I blurred this one out in case anyone gets on my back. Although I take bribes if you want to top the leaderboards. This **** don't pay.
 

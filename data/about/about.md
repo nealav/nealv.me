@@ -1,1 +1,1 @@
-Just a dude. || Passionate Software Engineer || Bay Area
+Just a dude. Also a Software Engineer interested in Statistics, ML, NLP, Operating Systems, Computer Vision, Security and DevOps among many other things. (￣▽￣)ノ
