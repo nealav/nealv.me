@@ -8,7 +8,7 @@ There is a power in comparison.
 
 <!-- end -->
 
-## 'Using Metaphors for Learning
+## Using Metaphors for Learning
 
 I stumbled upon a little fun game that I use now and then for learning different software engineering concepts. Whenever I want to check my understanding of a concept or tool like OOP, or Security or React I will grab a random noun or concept from my head and try to compare them together and draw out a meaning from it. Some examples:
 
