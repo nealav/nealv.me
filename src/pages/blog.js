@@ -63,7 +63,7 @@ function Blog({
   } = data;
 
   const pageTitle = `${siteTitle} - Blog`;
-  const pageDescription = `Neal Viswanath's Blog`;
+  const pageDescription = "Neal Viswanath's Blog";
 
   const nonEmptyPosts = posts
     .filter(post => post.node.frontmatter.title.length > 0);
